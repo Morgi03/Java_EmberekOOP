@@ -30,6 +30,6 @@ public class Ember {
 
     @Override
     public String toString() {
-        return String.format("%-30s %10s %20s", this.nev, this.szulDatum, this.szulhely, this.getEletkor(), getSzuletesiEv());
+        return String.format("%-30s %10s (%2s) %20s", this.nev, this.szulDatum,this.getEletkor() ,this.szulhely);
     }
 }
